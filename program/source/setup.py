@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from cx_Freeze import setup, Executable
 
 # Dependencies are automatically detected, but it might need
