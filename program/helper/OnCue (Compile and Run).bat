@@ -11,6 +11,13 @@ echo ^> Compiling %%f...
 pyuic5 "%%f" -o "%%~nf.py"
 )
 echo # -*- coding: utf-8 -*->__init__.py
+echo ^"^"^">>__init__.py
+echo OnCue Projector>>__init__.py
+echo Copyright 2017 Andrew Wong ^<featherbear@navhaxs.au.eu.org^>>>__init__.py
+echo.>>__init__.py
+echo The following code is licensed under the GNU Public License Version v3.0>>__init__.py
+echo ^"^"^">>__init__.py
+echo.>>__init__.py
 echo import pkgutil; __path__ = pkgutil.extend_path(__path__, __name__); [__import__(modname) for importer, modname, ispkg in pkgutil.walk_packages(path=__path__, prefix=__name__+'.')]>>__init__.py
 
 cd ..\..
