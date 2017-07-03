@@ -1,6 +1,6 @@
 # OnCue Projector by [featherbear](http://featherbear.navhaxs.au.eu.org)
 OnCue Projector is an easy to use multimedia presentation wrapper to facilitate the seamless playback of sequential content  
-![logo](/documentation/graphics/logo/icon.png | width=100)
+![logo](/documentation/graphics/logo/icon.png =250x250)
 
 ## Downloads
 Version: 0.0.0.1-alpha  
