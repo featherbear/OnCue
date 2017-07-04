@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "OnCue Projector"
-#define MyAppVersion "0.0.0.1"
+#define MyAppVersion GetFileVersion("../build/OnCue.exe")
 #define MyAppPublisher "featherbear"
 #define MyAppURL "http://featherbear.navhaxs.au.eu.org"
 #define MyAppExeName "OnCue.exe"
@@ -24,9 +24,9 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-OutputDir=D:\BTsync\BTsync\AS4 - Software Major - OnCue\program
+OutputDir=..
 OutputBaseFilename=OnCue Projector Setup
-SetupIconFile=D:\BTsync\BTsync\AS4 - Software Major - OnCue\program\source\OnCue.ico
+SetupIconFile=..\source\OnCue.ico
 UninstallDisplayIcon={app}\OnCue.exe
 Compression=lzma
 SolidCompression=yes
@@ -48,4 +48,4 @@ Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChang
 Source: "..\build\*"; DestDir: "{app}"; Flags: ignoreversion createallsubdirs recursesubdirs
 
 [PreCompile]
-Name: "D:\BTsync\BTsync\AS4 - Software Major - OnCue\program\helper\compile.bat"; Flags: cmdprompt redirectoutput runminimized abortonerror
+Name: "compile.bat"; Flags: cmdprompt redirectoutput runminimized abortonerror
