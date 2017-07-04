@@ -44,8 +44,8 @@ Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
+[PreCompile]
+Name: "build.bat"; Flags: runminimized abortonerror cmdprompt redirectoutput
+
 [Files]
 Source: "..\build\*"; DestDir: "{app}"; Flags: ignoreversion createallsubdirs recursesubdirs
-
-[PreCompile]
-Name: "compile.bat"; Flags: cmdprompt redirectoutput runminimized abortonerror
