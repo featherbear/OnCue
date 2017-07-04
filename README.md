@@ -1,4 +1,4 @@
-<a href="http://featherbear.navhaxs.au.eu.org"><img src="/documentation/graphics/banner.png" height="160px"/></a> by **[featherbear](http://featherbear.navhaxs.au.eu.org)**  
+<a href="http://featherbear.navhaxs.au.eu.org"><img src="//raw.githubusercontent.com/bearbear12345/OnCue/documentation/graphics/banner.png" height="160px"/></a> by **[featherbear](http://featherbear.navhaxs.au.eu.org)**  
   
 OnCue Projector is an easy to use multimedia presentation wrapper to facilitate the seamless playback of sequential content.  
 Windows only btw.
@@ -40,22 +40,22 @@ Version: 0.0.0.1-alpha
  * [vlc.py](https://wiki.videolan.org/Python_bindings/) `build Mon Mar 20 11:04:27 2017`
 
 ### Running
-`$ program/helper/OnCue (Compile and Run).bat`  
+`$ helper/OnCue (Compile and Run).bat`  
 *or*  
-`$ program/source/OnCue.py`
+`$ source/OnCue.py`
 
 
 ### Building
 *Ensure PyQt and PyWin32 are present on your system*
 
 ```
-$ cd program/source  
+$ cd source  
 $ python setup.py build
 ```
-Executable will be found in *program/build/OnCue*
+Executable will be found in *build/OnCue*
 
 ### Packaging the Installer
-`$ program/helper/package.bat`
+`$ helper/package.bat`
 
 
 ## License
