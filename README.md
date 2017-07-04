@@ -1,11 +1,19 @@
 <a href="http://featherbear.navhaxs.au.eu.org"><img src="https://raw.githubusercontent.com/bearbear12345/OnCue/documentation/graphics/banner.png" height="160px"/></a> by **[featherbear](http://featherbear.navhaxs.au.eu.org)**  
   
 OnCue Projector is an easy to use multimedia presentation wrapper to facilitate the seamless playback of sequential content.  
-Windows only btw.
+Currently only supports Windows.
+
+> **FYI:** This is my HSC major project for Software Design & Development
 
 ## Downloads
 Version: 0.0.0.1-alpha  
-*we'll see...*
+*we'll see...*  
+
+| [Installation Guide](https://github.com/bearbear12345/OnCue/raw/documentation/OnCue%20-%20Installation%20Guide.pdf) |  
+| [User Manual](https://github.com/bearbear12345/OnCue/raw/documentation/OnCue%20-%20User%20Manual.pdf) |  
+| [Troubleshooting](https://github.com/bearbear12345/OnCue/raw/documentation/OnCue%20-%20Troubleshooting.pdf) |  
+| [Technical Manual](https://github.com/bearbear12345/OnCue/raw/documentation/OnCue%20-%20Technical%20Manual.pdf) |  
+
 
 ## Features
 *???*
