@@ -619,7 +619,6 @@ if __name__ == "__main__":
     # Read preferences from registry
     QSettings = QtCore.QSettings("featherbear", "OnCue Projector")
     states = {
-        'output': {},
         'display': {},
         'screens': {},
         'interface': {

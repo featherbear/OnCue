@@ -100,7 +100,7 @@ QPushButton:hover {background-color: #A0A0A0;}
      <rect>
       <x>0</x>
       <y>80</y>
-      <width>301</width>
+      <width>300</width>
       <height>740</height>
      </rect>
     </property>
@@ -388,9 +388,9 @@ color: #A7A7A7;
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>120</y>
+      <y>118</y>
       <width>260</width>
-      <height>701</height>
+      <height>703</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -497,7 +497,7 @@ QListView::item:hover:!selected {
         <x>0</x>
         <y>650</y>
         <width>261</width>
-        <height>51</height>
+        <height>53</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="powerpointControls">
