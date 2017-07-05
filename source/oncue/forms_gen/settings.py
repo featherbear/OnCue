@@ -847,7 +847,7 @@ class Ui_Settings(object):
         self.btnBack.raise_()
 
         self.retranslateUi(Settings)
-        self.viewTabs.setCurrentIndex(1)
+        self.viewTabs.setCurrentIndex(3)
         QtCore.QMetaObject.connectSlotsByName(Settings)
 
     def retranslateUi(self, Settings):
@@ -887,7 +887,6 @@ class Ui_Settings(object):
         self.label_6.setText(_translate("Settings", "API Port"))
         self.aboutInfo.setText(_translate("Settings", "OnCue Projector\n"
 "\n"
-"Version: 0.0.0.1a\n"
 "Author: Andrew Wong"))
         self.aboutDescription.setText(_translate("Settings", "OnCue Projector is an easy to use multimedia presentation wrapper to facilitate the seamless playback of sequential content"))
         self.viewTabs_General.setText(_translate("Settings", "General"))
